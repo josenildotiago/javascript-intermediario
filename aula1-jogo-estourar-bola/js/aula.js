@@ -17,6 +17,7 @@ function addBola(){
 }
 function estourar(elemento){
     document.body.removeChild(elemento);
+    document.getElementById("placar").innerHTML++;
 }
 function iniciar(){
     setInterval(addBola,1000);
